@@ -12,6 +12,7 @@
           
         <li><a routerLink="signup"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
         <li><a [routerLink]="[{outlets:{'col1':[status]}}]"><span class="glyphicon glyphicon-log-in"></span> {{status | titlecase}}</a></li>
+        <li><a [routerLink]="[{outlets:{'col1':[status]}}]">{{status}}</a></li>
       </ul>
       <!-- <input type="text" name="status" id="" [(ngModel)]="status"> -->
     </div>
